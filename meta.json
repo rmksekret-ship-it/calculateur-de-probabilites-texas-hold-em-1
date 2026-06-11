@@ -1,0 +1,46 @@
+{
+  "name": "Calculateur de Probabilités Texas Hold'em",
+  "description": "Entrez 2 cartes (ex: As Kh pour As de Pique, Roi de Cœur). Les couleurs sont (s)pique, (h)cœur, (d)carreau, (c)trèfle. Les valeurs (A, K, Q, J, T, 9-2).",
+  "theme": "tool",
+  "design_theme": "refined-grit",
+  "structure_preset": "guided-steps-plus",
+  "render_direction": "worksheet-flow",
+  "page_blueprint": "campaign-mosaic",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://calculateur-de-probabilites-texas-hold-em-1.onrender.com",
+  "created": "2026-06-11T01:42:36.785958+00:00",
+  "owner_user_id": "user-1774825923424-663",
+  "owner_username": "inso",
+  "owner_display_name": "Inso",
+  "provider_space_id": "new-sites",
+  "provider_space_name": "New Sites",
+  "status": "generated",
+  "run_id": "run-1781142081295",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: stacked",
+    "Proof module: checklist",
+    "Design theme: Refined Grit",
+    "Render direction: Worksheet Flow",
+    "Page blueprint: Campaign Mosaic",
+    "Runtime mode: analysis_tool",
+    "Generation mode: template_fallback",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
