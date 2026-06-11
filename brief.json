@@ -1,0 +1,314 @@
+{
+  "run_id": "run-1781142081295",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774825923424-663",
+    "owner_username": "inso",
+    "owner_display_name": "Inso",
+    "count": 3,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Калькулятор вероятности победы для Техасского Холдем-покера.",
+    "notes": "Нужно сделать калькулятор, который будет в % показывать вероятность выигрыша 1-2-3 игрока. При наличии определенных карт на флопе-тёрне и ривере.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "",
+    "network_hosting_pool": "",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "new-sites",
+    "provider_space_name": "New Sites",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": false,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "tool",
+    "archetype_mix": [
+      "tool"
+    ]
+  },
+  "site_spec": {
+    "slug": "calculateur-de-probabilites-texas-hold-em-1",
+    "theme": {
+      "name": "Refined Grit",
+      "slug": "refined-grit",
+      "eyebrow": "Polished Edge",
+      "family": "refined-grit",
+      "moods": [
+        "edgy",
+        "polished",
+        "textured",
+        "bold"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "brand tools",
+        "creator tools",
+        "portfolio utility",
+        "campaign tools",
+        "research"
+      ],
+      "keywords": [
+        "grit",
+        "texture",
+        "edge",
+        "bold",
+        "statement"
+      ],
+      "token_index": [
+        "bold",
+        "brand",
+        "calculator",
+        "campaign",
+        "creator",
+        "edge",
+        "edgy",
+        "generator",
+        "grit",
+        "polished",
+        "portfolio",
+        "refined",
+        "research",
+        "statement",
+        "texture",
+        "textured",
+        "tool",
+        "tools",
+        "utility"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"DM Serif Display\", serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "editorial",
+      "card_style": "paper",
+      "button_style": "slab",
+      "decor_style": "paper",
+      "hero_template": "1fr",
+      "seo_template": "1fr",
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "hero_min_height": "70vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(160deg, #f7f3ee 0%, #d6d3d1 48%, #111827 100%)",
+        "surface": "rgba(17,24,39,0.8)",
+        "surface_border": "rgba(249,115,22,0.14)",
+        "text": "#faf5ef",
+        "muted": "#d6c6b9",
+        "accent": "#f97316",
+        "accent_alt": "#eab308",
+        "hero_glow": "rgba(249, 115, 22, 0.16)",
+        "button_text": "#1c1008",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 28px 84px rgba(15, 23, 42, 0.3)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Guided Steps Plus",
+      "slug": "guided-steps-plus",
+      "hero_variant": "stacked",
+      "proof_variant": "checklist",
+      "section_order": [
+        "features",
+        "proof",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 2,
+      "family": "guided-flow",
+      "moods": [
+        "guided",
+        "clear",
+        "operator"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "onboarding",
+        "services",
+        "planning",
+        "forms"
+      ],
+      "keywords": [
+        "guided",
+        "steps",
+        "operator",
+        "onboarding"
+      ],
+      "token_index": [
+        "calculator",
+        "checklist",
+        "clear",
+        "faq",
+        "features",
+        "flow",
+        "forms",
+        "generator",
+        "guided",
+        "onboarding",
+        "operator",
+        "planning",
+        "plus",
+        "proof",
+        "seo",
+        "services",
+        "stacked",
+        "steps",
+        "tool"
+      ]
+    },
+    "render_direction": "worksheet-flow",
+    "render_direction_name": "Worksheet Flow",
+    "page_blueprint": "campaign-mosaic",
+    "page_blueprint_name": "Campaign Mosaic",
+    "title": "Calculateur de Probabilités Texas Hold'em",
+    "tagline": "Un outil utile, présenté comme un produit fort.",
+    "description": "Entrez 2 cartes (ex: As Kh pour As de Pique, Roi de Cœur). Les couleurs sont (s)pique, (h)cœur, (d)carreau, (c)trèfle. Les valeurs (A, K, Q, J, T, 9-2).",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Voir la suite",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Worksheet Flow",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Worksheet Flow",
+      "Voir la suite",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "classic",
+    "faq_topic": "outil numérique",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour outil numérique ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de outil numérique et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "feature_cards": [
+      {
+        "title": "Promesse utile",
+        "text": "L'outil isole un signal nette à partir d'un sujet concret comme outil numérique."
+      },
+      {
+        "title": "Moment fort",
+        "text": "Le parcours Guided Steps Plus garde l'interface simple même quand l'entrée est plus dense."
+      },
+      {
+        "title": "Action immédiate",
+        "text": "La prochaine action devient immédiate grâce à une sortie pensée pour une décision rapide."
+      }
+    ],
+    "proof_cards": [
+      {
+        "title": "Promesse visible",
+        "text": "Refined Grit cadre la page avec une lecture nette qui rassure dès le premier écran."
+      },
+      {
+        "title": "Bénéfice immédiat",
+        "text": "Guided Steps Plus met le résultat en avant avec une hiérarchie simple et directement exploitable."
+      },
+      {
+        "title": "Passage à l'action",
+        "text": "Le CTA mène vers une action immédiate, sans exposer l'utilisateur à un écran inutile."
+      }
+    ],
+    "generation_mode": "template_fallback"
+  }
+}
